@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>Servlet</display-name>
+
+	<servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>com.sadang.hello.HelloController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ex01</servlet-name>
+		<servlet-class>com.sadang.servlet.ex.Ex01Controller</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ex01</servlet-name>
+		<url-pattern>/servlet/ex01</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>practice01</servlet-name>
+		<servlet-class>com.sadang.servlet.test.Practice01Controller</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>practice01</servlet-name>
+		<url-pattern>/servlet/practice01</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>practice02</servlet-name>
+		<servlet-class>com.sadang.servlet.test.Practice02Controller</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>practice02</servlet-name>
+		<url-pattern>/servlet/practice02</url-pattern>
+	</servlet-mapping>
+</web-app>
