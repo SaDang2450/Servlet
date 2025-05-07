@@ -66,7 +66,7 @@
 		</thead>
 		<tbody>
 		<%
-			for(Map score : scoreList) {
+			for(Map<String, Integer> score : scoreList) {
 		%>
 			<tr>
 				<td><%= score.get("국어") %></td>
