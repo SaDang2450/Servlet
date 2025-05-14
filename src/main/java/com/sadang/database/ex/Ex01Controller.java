@@ -31,7 +31,7 @@ public class Ex01Controller extends HttpServlet {
 			// 접속에 필요한 정보 : 접속주소, 포트, 사용할 데이터베이스, 사용자이름, 비밀번호
 			String url = "jdbc:mysql://localhost:3306/sadang";
 			String username = "root";
-			String password = "";
+			String password = "root";
 
 			Connection connection = DriverManager.getConnection(url, username, password);
 

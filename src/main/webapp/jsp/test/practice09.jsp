@@ -184,7 +184,7 @@
 					%>			
 					<tr>
 						<td><%= program.get("ch") %></td>
-						<td><%= program.get("name") %></td>
+						<td><%= program.get("name") %></td>l
 						<td><%= program.get("category") %></td>
 					</tr>		
 					<%
